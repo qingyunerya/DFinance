@@ -142,12 +142,7 @@
 								收支类别管理
 							</a>
 						</li>
-						<li>
-							<a href="${pageContext.request.contextPath}/newsManage/findNewsList.action">
-								<span class="glyphicon glyphicon-folder-open"></span> 
-								财务新闻管理
-							</a>
-						</li>
+						
 					</ul>
 				</div>
 			</div>

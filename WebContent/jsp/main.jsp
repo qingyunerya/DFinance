@@ -753,39 +753,7 @@
 					<!-- col-md-9范围 -->
 		
 		
-					<!-- 右侧信息栏制作 -->
-					<div class="col-md-3 visible-md-3 hidden-xs hidden-sm"><!-- 在手机端不进行显示 -->
-						<div class="panel panel-default">
-					        <div class="panel-heading">
-		<!-- 			        	<span class="glyphicon glyphicon-option-vertical"></span> -->
-					          		  财务新闻
-		<!-- 			          	  <span class="glyphicon glyphicon-option-vertical"></span> -->
-					          	  	推荐
-					          	  
-					            <a href="${pageContext.request.contextPath}/news/findNewsList.action?currentPage=0" class="text-muted pull-right">more<span class="glyphicon glyphicon-chevron-right"></span></a>
-					        </div>
-					        <ul class="list-group">
-					        	<c:forEach items="${newsList}" var="news">
-						            <li class="list-group-item">
-						            	<div>
-						            		<a href="${pageContext.request.contextPath}/news/news.action?nid=${news.nid}"  target="_blank" class="text-muted" style="font-family: '黑体';margin-top: 2px;">
-							                	${news.nTitle}
-							                </a>
-						                </div>
-						                <div >
-							                  <span style="width:150px;">
-								               	  <span class="badge" style="margin-left: 0px;color: white;background-color: #5BC0DE;">
-								               	  	${news.keyword}
-								               	  </span>
-							               	  </span>
-							               	 <span class="badge" style="margin-left: 0px;color: white;background-color: #5BC0DE;">
-							               		 阅读量: ${news.visitCount}
-							               	 </span>
-						                </div>
-						            </li>
-					            </c:forEach>
-					        </ul>
-					    </div>
+					
 					
 					</div><!-- col-md-3范围 -->
 					
