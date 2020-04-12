@@ -23,7 +23,6 @@
 <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 <meta http-equiv="description" content="This is my page">
 
-
 <!-- 引入外部的bootstrap中的css文件 -->
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <!-- jquery文件，务必在bootstrap.min.js之前引入 -->
