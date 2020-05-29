@@ -1,4 +1,5 @@
 //document.write("<script language=javascript src='js/financialCount.js'></script>");
+
 $(function() {
 	// financialCount页面加载时，进行绘制年度统计的表
 	$(window).load(function() {
@@ -46,10 +47,10 @@ $(function() {
 				//设置当前年份
 				year=year2;
 			}
-//			 alert("year:"+year);
+		 alert("year:"+year);
 			if(chart=="折线图"){
 				$("#container_year_chart").show();
-				yearInMonthCount(year);//折线图
+				//yearInMonthCount(year);//折线图
 				$("#container_year_chart_left").hide();
 				$("#container_year_chart_right").hide();
 			}
@@ -142,7 +143,7 @@ $(function() {
 				}
 				else{
 					var title = {
-						text : year + '年度收支情况'
+						text : year + '年度收支情况ces'
 					};
 					var subtitle = {
 						text : ''
@@ -190,7 +191,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 	
 					// 创建 数据列series
@@ -306,7 +307,7 @@ $(function() {
 						};
 						// 版权信息
 						var credits = {
-							text : 'financialCount.com'
+							enabled: false
 						};
 						//根据获得的数据进行
 						//"incomes":[{"categoryName":0,"moneyName":973,"monthName":3},{"categoryName":0,"moneyName":223,"monthName":4}]
@@ -419,7 +420,7 @@ $(function() {
 						};
 						// 版权信息
 						var credits = {
-							text : 'financialCount.com'
+							text : ''
 						};
 	//					alert("credits"+credits);
 						//根据获得的数据进行
@@ -520,7 +521,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					// 创建 数据列series
 					// 收入数组
@@ -658,7 +659,7 @@ $(function() {
 				 };
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 	
 					// 创建 数据列series
@@ -781,7 +782,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					// 创建 数据列series
 					// 收入数组
@@ -1063,7 +1064,7 @@ $(function() {
 					     };
 						// 版权信息
 						var credits = {
-							text : 'financialCount.com'
+							text : ''
 						};
 						var incomeArray =[];//外面的数组
 						//计算收入的总额
@@ -1153,7 +1154,7 @@ $(function() {
 					     };
 						// 版权信息
 						var credits = {
-							text : 'financialCount.com'
+							text : ''
 						};
 						var spendArray =[];//外面的数组
 						//计算支出的总额

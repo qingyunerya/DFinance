@@ -30,7 +30,7 @@ $(function() {
 		/*
 		//折线图
 		MonthInDayCountLine(currentTime);//当前时间
-*/		
+*/	
 	});
 	
 	//点击时，进行查询
@@ -343,7 +343,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					// 创建 数据列series
 					// 收入数组
@@ -447,7 +447,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					
 					// 创建 数据列series
@@ -553,7 +553,7 @@ $(function() {
 				 };
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					// 创建 数据列series
 					// 收入数组
@@ -749,7 +749,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 	
 
@@ -1077,7 +1077,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					//根据获得的数据
 					var incomeArray=incomeArrayInMonthAndCategory(data);
@@ -1145,7 +1145,7 @@ $(function() {
 					};
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					//根据获得的数据
 					var spendArray=spendArrayInMonthAndCategory(data);
@@ -1388,7 +1388,7 @@ $(function() {
 				     };
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					//数据
 					var incomeArray=incomeArrayInMonthAndCategory(data);
@@ -1464,7 +1464,7 @@ $(function() {
 				     };
 					// 版权信息
 					var credits = {
-						text : 'financialCount.com'
+						text : ''
 					};
 					//数据
 					var spendArray=spendArrayInMonthAndCategory(data);

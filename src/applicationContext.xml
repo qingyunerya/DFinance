@@ -34,12 +34,12 @@
 	<!-- mapper代理的方式 方式二：扫描包形式配置mapper -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- 扫描的包 :基本包 每个mapper代理对象的id就是类名，首字母小写 -->
-		<property name="basePackage" value="cn.zhku.jsj144.zk.financialManage.mapper"></property>
+		<property name="basePackage" value="com.lzh.financialManage.mapper"></property>
 	</bean>
 	
 	
 	<!-- 配置扫描 service包 -->
-	<context:component-scan base-package="cn.zhku.jsj144.zk.financialManage.service"/>
+	<context:component-scan base-package="com.lzh.financialManage.service"/>
 	
 	<!-- 事务管理 -->
 	<!-- 事务管理器 -->

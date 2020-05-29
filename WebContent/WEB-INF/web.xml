@@ -66,7 +66,7 @@
     <!-- servlet的内部名称，自定义。尽量有意义 -->
 <!--     <servlet-name>UeditorServlet</servlet-name> -->
     <!-- servlet的类全名： 包名+简单类名 -->
-<!--     <servlet-class>cn.zhku.jsj144.zk.financialManage.controller.UeditorServlet</servlet-class> -->
+<!--     <servlet-class>com.lzh.financialManage.controller.UeditorServlet</servlet-class> -->
 <!-- </servlet> -->
 <!-- servlet的映射配置 -->
 <!-- <servlet-mapping> -->

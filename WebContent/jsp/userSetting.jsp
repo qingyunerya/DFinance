@@ -91,7 +91,7 @@
 					<span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand">财务管理系统</a>
+				<a class="navbar-brand">浩天财务管理系统</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
 				<!-- 导航元素 -->
@@ -146,7 +146,7 @@
 			class="icon-bar"></span>
 	</button>
 
-	<a class="navbar-brand"> 财务管理系统 <!-- <img alt="财务管理系统" src="${pageContext.request.contextPath}/images/homePage.jpg"> -->
+	<a class="navbar-brand"> 浩天财务管理系统 <!-- <img alt="浩天财务管理系统" src="${pageContext.request.contextPath}/images/homePage.jpg"> -->
 	</a>
 	</div>
 

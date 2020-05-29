@@ -344,7 +344,7 @@ $(function() {
 			};
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			// 创建 数据列series
 			// 收入数组
@@ -422,7 +422,7 @@ $(function() {
 			};
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			// 创建 数据列series
 			// 支出数组
@@ -502,7 +502,7 @@ $(function() {
 			};
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			
 			// 创建 数据列series
@@ -579,7 +579,7 @@ $(function() {
 			};
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			
 			// 创建 数据列series
@@ -637,7 +637,7 @@ $(function() {
 			};
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			//根据获得的数据
 			var incomeArray=incomeArrayInTimeAndCategory(data);//收入比例
@@ -690,7 +690,7 @@ $(function() {
 			};
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			//根据获得的数据
 			var spendArray=spendArrayInTimeAndCategory(data);//支出比例
@@ -771,7 +771,7 @@ $(function() {
 			 };
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			// 创建 数据列series
 			// 收入数组
@@ -857,7 +857,7 @@ $(function() {
 		 };
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			// 创建 数据列series
 			// 支出数组
@@ -1065,7 +1065,7 @@ $(function() {
 		     };
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			//数据
 			var incomeArray=incomeArrayInTimeAndCategory(data);//收入比例
@@ -1131,7 +1131,7 @@ $(function() {
 		     };
 			// 版权信息
 			var credits = {
-				text : 'financialCount.com'
+				text : ''
 			};
 			//数据
 			var spendArray=spendArrayInTimeAndCategory(data);//支出比例

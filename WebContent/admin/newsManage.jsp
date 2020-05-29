@@ -67,7 +67,7 @@
 				<nav class="navbar navbar-inverse" role="navigation">
 					<div class="container-fluid">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="javascript:void(0)">财务管理系统后台管理</a>
+							<a class="navbar-brand" href="javascript:void(0)">浩天财务管理系统后台管理</a>
 						</div>
 						<div>
 							<ul class="nav navbar-nav navbar-right">
@@ -99,12 +99,6 @@
 							<a href="${pageContext.request.contextPath}/categoryManage/findCategorys.action">
 								<span class="glyphicon glyphicon-signal"></span>
 								收支类别管理
-							</a>
-						</li>
-						<li class="active" >
-							<a href="${pageContext.request.contextPath}/newsManage/findNewsList.action">
-								<span class="glyphicon glyphicon-folder-open"></span> 
-								财务新闻管理
 							</a>
 						</li>
 					</ul>

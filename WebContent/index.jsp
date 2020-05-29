@@ -43,7 +43,7 @@
 			<div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">
 				<!-- 登录主体框 -->
 				<div class="main-box">
-					<img  class="img-responsive" alt="财务管理系统" src="/financialManage/images/logo.jpg" id="logo">
+					<img  class="img-responsive" alt="财务管理系统" src="/financialManage/images/logo2.jpg" id="logo">
 					<hr />
 					<h3>用户登录</h3>
 					<form

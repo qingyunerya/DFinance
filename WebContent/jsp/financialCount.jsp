@@ -54,11 +54,11 @@
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/css/financialCount.css">
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/js/financialCountYear.js"></script>
+	src="${pageContext.request.contextPath}/js/financialCountYear2.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/js/financialCountMonth.js"></script>
+	src="${pageContext.request.contextPath}/js/financialCountMonth2.js"></script>
 <script type="text/javascript"
-	src="${pageContext.request.contextPath}/js/financialCountTime.js"></script>
+	src="${pageContext.request.contextPath}/js/financialCountTime2.js"></script>
 
 <!-- 自定义控件 -->
 <!-- jquery文件的冲突问题 -->
@@ -78,7 +78,7 @@
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/app/js/offcanvas.js"></script>
 <script type="text/javascript">
-	//处理键盘事件 禁止后退键（Backspace）密码或单行、多行文本框除外  
+	//处理键盘事件 禁止后退键（Backspace）密码或单行、多行文本框除外 
 	function forbidBackSpace(e) {
 		var ev = e || window.event; //获取event对象  
 		var obj = ev.target || ev.srcElement; //获取事件源  
@@ -119,7 +119,7 @@
 					<span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand">财务管理系统</a>
+				<a class="navbar-brand">浩天财务管理系统</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
 				<!-- 导航元素 -->

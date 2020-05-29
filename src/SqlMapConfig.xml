@@ -6,6 +6,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	<!-- 别名定义 -->
 	<typeAliases>
 		<!-- 批量别名定义，扫描整个包下的类，别名为类名（大小写不敏感） -->
-		<package name="cn.zhku.jsj144.zk.financialManage"/>
+		<package name="com.lzh.financialManage"/>
 	</typeAliases>
 </configuration>
