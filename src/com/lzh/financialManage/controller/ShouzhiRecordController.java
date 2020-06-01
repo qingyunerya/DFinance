@@ -255,6 +255,7 @@ public class ShouzhiRecordController {
 		
 		//return "OK";    //jquery实现失败
 		//return "redirect:/shouzhiRecord/findShouzhiRecord.action";//重新查询
+		
 	}
 }
 
