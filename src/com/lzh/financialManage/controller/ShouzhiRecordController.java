@@ -16,12 +16,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSON;
-import com.lzh.financialManage.pojo.News;
 import com.lzh.financialManage.pojo.PageBean;
 import com.lzh.financialManage.pojo.ShouzhiCategory;
 import com.lzh.financialManage.pojo.ShouzhiRecord;
 import com.lzh.financialManage.pojo.User;
-import com.lzh.financialManage.service.NewsService;
 import com.lzh.financialManage.service.ShouzhiCategoryService;
 import com.lzh.financialManage.service.ShouzhiRecordService;
 
@@ -36,8 +34,6 @@ public class ShouzhiRecordController {
 	@Autowired
 	private ShouzhiCategoryService shouzhiCategoryService;//注入shouzhiCategoryService
 	
-	@Autowired
-	private NewsService newsService;
 	//登录之后，跳转到账单明细
 	//账单明细      +分页查询  +多条件查询
 	@RequestMapping(value="findShouzhiRecord.action")
@@ -91,10 +87,6 @@ public class ShouzhiRecordController {
 		//查询支出子类型
 		List<ShouzhiCategory> spends=shouzhiCategoryService.findShouzhiCategoryByParent("支出");
 		request.setAttribute("spends", spends);
-		
-		//查出8条财务新闻，通过录入时间 和  访问量的多少来决定显示
-		List<News> newsList=newsService.findNewsEightList();
-		request.setAttribute("newsList", newsList);//财务新闻
 		
 		
 		if(pageBean.getPageList().size()==0){//查询结果为null时，确保数据为空
